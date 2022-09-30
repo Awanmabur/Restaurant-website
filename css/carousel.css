@@ -1,0 +1,94 @@
+/*
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+  width: 100%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30rem;
+  padding-top: 60px;
+  padding-left: 10px;
+}
+
+#item{
+  text-align: center;
+  border-radius: 100%
+}
+
+#carousel-inner{
+  padding-left: auto;
+
+}
+
+#cont{
+  text-align: center;
+}
+
+#myCarousel{
+  background: url(../images/a2.jpg)no-repeat center;
+}
+
+
+
+.testimonial-container {
+  width: 500px;
+  height: 200px;
+  background-color: slateblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  min-width: 400px;
+  padding: 70px 20px;
+  margin: 5px;
+  color: white;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  margin: 0;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+}
+
+#testimonial{
+margin: 0;
+display: flex;
+justify-content: center;
+
+align-items: center;
+font-family: cursive;
+}
+
+.username {
+  font-size: 13px;
+  font-weight: 100;
+  text-align: left;
+} */
+
+
+.container{
+  text-align: center;
+}
